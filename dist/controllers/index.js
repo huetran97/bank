@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var auth_controller_1 = require("./auth.controller");
+exports.auth = auth_controller_1.default;
+var user_controller_1 = require("./user.controller");
+exports.user = user_controller_1.default;
+var transaction_controller_1 = require("./transaction.controller");
+exports.transaction = transaction_controller_1.default;
+var devices_controller_1 = require("./devices.controller");
+exports.devices = devices_controller_1.default;
